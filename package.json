@@ -1,0 +1,25 @@
+{
+  "name": "fabrik",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "start": "pnpm build -w"
+  },
+  "type": "module",
+  "dependencies": {
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-html": "^1.0.3",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/three": "^0.165.0",
+    "postcss": "^8.4.38",
+    "rollup": "^4.18.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^3.0.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
+}

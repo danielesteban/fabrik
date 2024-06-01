@@ -1,0 +1,44 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  color: #eee;
+  cursor: crosshair;
+  font-family: monospace;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.125rem;
+  touch-action: none;
+  overflow: hidden;
+  overscroll-behavior: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -webkit-overflow-scrolling: auto;
+}
+
+:root, body, #viewport {
+  width: 100vw;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+canvas {
+  vertical-align: middle;
+}
+
+#info {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  text-align: right;
+}
